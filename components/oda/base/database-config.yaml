@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: oda-database-config
+data:
+  VECTORDB_HOST: "oda-database"
+  VECTORDB_PORT: ""
